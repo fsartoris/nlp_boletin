@@ -32,7 +32,6 @@ def boletin(fecha):
 
 
 def main():
-    #boletin(date.today().strftime("20200217"))
     boletin(date.today().strftime("%Y%m%d"))
 
 if __name__ == '__main__':
