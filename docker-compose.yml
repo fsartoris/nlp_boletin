@@ -1,0 +1,10 @@
+version: "3"
+services:
+  boletin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SET_CONTAINER_TIMEZONE=true
+      - CONTAINER_TIMEZONE=America/Argentina/Buenos_Aires
+    network_mode: "host"
